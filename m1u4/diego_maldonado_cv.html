@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Maldonado CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="name">
+        <h1>DIEGO DANIEL MALDONADO</h1>
+    </div>
+
+    <div class="img">
+        <img src="img/diego_foto_perfil.jpg" alt="foto perfil" />
+
+    </div>
+
+    <h2>Edad</h2>
+    <h3>49 años</h3>
+
+    <h2>Domicilio</h2>
+    <h3>Valle de Anisacate - Córdoba</h3>
+
+    <h2>Qué series me gustan?</h2>
+    <ul class="list">
+        <li>Breaking Bad</li>
+        <li>Dr. House</li>
+        <li>True Detective</li>
+        <li>Game of Thrones</li>
+    </ul>
+
+    <h2>Qué pelis son las que mas gustaron?</h2>
+    <ol class="list">
+        <li>Avengers - Saga Completa</li>
+        <li>Interestelar</li>
+        <li>Matrix - Saga Completa</li>
+        <li>Tenet</li>
+    </ol>
+
+    <h2 class="titulo_perfil">Perfil</h2>
+    <div class="perfil">
+        <p>Soy una persona autodidacta, me interesa mucho todo lo relacionado con la tecnología y el desarrollo web en
+            particular. Me
+            gustaría ser un desarrollador independiente y tener mi propio espacio de trabajo freelance.</p>
+
+        <p>Tengo realizados cursos de HTML y CSS3 de manera independiente. Mi idea es complementar y actualizar los
+            conocimientos
+            adquiridos y poder aplicarlos en casos reales en un ámbito laboral.</p>
+
+        <p>Me gustan las artes marciales, soy instructor de Aikido y también he tomado clases de Karate y Whing Tchum.
+            Disfruto mucho la compañia de mi familia, mis hijos y nietos. Me gustan las cosas en grupos pequeños de
+            personas
+            y evito siempre las multitudes.</p>
+    </div>
+
+    <h2>Si querés contactarme podes completar el siguiente <a href="#formulario">formulario</a></h2>
+
+
+
+
+
+
+
+    
+    <form class="form" id="formulario">Formulario de contacto
+        <p><label for="nom">Tu nombre</label>
+            <input type="text" name="nombre" placeholder="...." />
+        </p>
+
+        <p><label for="apellido">Tu apellido</label>
+            <input type="text" name="apellido" placeholder="...." />
+        </p>
+
+        <p><label for="age">Tu edad</label>
+            <input type="text" name="age" placeholder="...." />
+        </p>
+
+        <p><label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label>Hombre</label>
+            </li>
+
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label>Mujer</label>
+            </li>
+
+            <li>
+                <input type="radio" name="sexo" value="otro">
+                <label>Otro</label>
+            </li>
+        </ul>
+        </p>
+
+        <p><label for="mail">Tu email</label>
+            <input type="email" name="email" placeholder="algo@email.com">
+        </p>
+
+        <p><label for="comentarios">Deja tu comentario</label>
+            <textarea name="comentarios"></textarea>
+
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
