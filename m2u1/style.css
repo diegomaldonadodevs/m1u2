@@ -1,26 +1,42 @@
 * {
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+
 }
 
+/*font-weight: 700;
+  font-style: italic;
+
+  font-weight: 300;
+  font-style: italic;
+}
+*/
 #name {
-    background-color: rgb(77, 22, 22);
-    margin: 10px;
+    background: radial-gradient(ellipse at center, rgba(77, 22, 22, 1) 0%, rgba(143, 2, 34, 1) 42%, rgba(109, 0, 25, 1) 100%);
+    box-shadow: 11px 13px 20px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 46px 10px 46px 10px;
+    margin: 50px 10px;
     color: white;
     text-align: center;
     height: 100px;
     border-top: 2px solid red;
-    border-radius: 10px;
+
+
 
 
 }
 
 .img {
     background-color: rgb(211, 198, 198);
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 46px 10px 46px 10px;
+    margin: 50px 10px;
     text-align: center;
     padding: 10px;
     border-top: 2px solid red;
+    box-shadow: 11px 13px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
 img {
@@ -28,19 +44,24 @@ img {
     height: 250px;
     border: 1px solid rgb(90, 89, 89);
     border-radius: 5px;
+    box-shadow: 11px 13px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.h1 {
+    font-weight: 700;
+    font-style: italic;
 }
 
 h2 {
     background-color: rgb(173, 165, 165);
+    box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.62);
     color: white;
     text-align: center;
     height: 50px;
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding-top: 10px;
     border-radius: 5px;
-    font-style: italic;
-    font-weight: bold;
     border-top: 2px solid red;
 
 }
@@ -53,8 +74,7 @@ h3 {
     margin: 5px auto;
     padding-top: 10px;
     border-radius: 5px;
-    font-size: large;
-    font-weight: 700;
+
 
 }
 
@@ -68,8 +88,7 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    font-size: large;
-    font-weight: 700;
+
 
 }
 
@@ -77,31 +96,36 @@ h3 {
     background-color: rgb(211, 198, 198);
     text-align: justify;
     width: 70%;
-    margin: 5px auto;
+    margin: 20px auto;
     padding: 20px;
-    font-size: large;
-    font-weight: 700;
     border-radius: 5px;
+
+
+}
+
+.parrafo_perfil {
+    column-count: 3;
+    column-gap: 20px;
 
 }
 
 .titulo_perfil {
     width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 10px;
 }
 
 
 .form {
-    background-color: rgb(77, 22, 22);
+    background: radial-gradient(ellipse at center, rgba(77, 22, 22, 1) 0%, rgba(143, 2, 34, 1) 42%, rgba(109, 0, 25, 1) 100%);
+    box-shadow: 12px 20px 20px 0px rgba(0, 0, 0, 0.75);
     width: 50%;
-    height: 100vh;
-    margin: 20px auto;
+    height: 500px;
+    margin: 40px auto;
     padding: 25px;
     color: white;
     text-align: left;
-    font-size: x-large;
-    border-radius: 10px;
+    border-radius: 46px 10px 46px 10px;
     border-top: 4px solid red;
 
 
@@ -113,7 +137,10 @@ ul {
 
 
 input {
-    font-size: large;
     border-radius: 5px;
     border-bottom: 1px solid red;
+}
+
+i{
+    padding: 0 20px;
 }
