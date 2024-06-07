@@ -25,9 +25,23 @@ var alumnos = [
     }
 ];
 
-const alumnosAprobados = alumnos.filter ((aprobado => {
-    return aprobado.nota >= 7;
-}));
+// const alumnosAprobados = alumnos.filter ((aprobado => {
+//     return aprobado.nota >= 7;
+// }));
 
-console.log(alumnosAprobados);
+// console.log(alumnosAprobados);
+
+
+const aprobados = alumnos.filter(function (alumno){
+   return alumno.nota >= 7;
+
+});
+
+console.log(aprobados);
+console.log(`${aprobados.length} aprobados`);
+
+for(let i = 0; i < aprobados.length; i++) {
+   document.write(`<p> Alumno: ${aprobados[i].nombre}, Nota: ${aprobados[i].nota} <p>`)
+
+};
 
