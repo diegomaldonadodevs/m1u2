@@ -10,6 +10,8 @@ import ContactoPage from './pages/ContactoPage';
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
 import NovedadesPage from './pages/NovedadesPage';
+import GaleriaPage from './pages/GaleriaPage';
+import ServiciosPage from './pages/ServiciosPage';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path='/nosotros' element={<NosotrosPage />} />
           <Route path='/novedades' element={<NovedadesPage />} />
           <Route path='/contacto' element={<ContactoPage />} />
+          <Route path='/galeria' element={<GaleriaPage />} />
+          <Route path='/servicios' element={<ServiciosPage />} />
         </Routes>
       </BrowserRouter>
 

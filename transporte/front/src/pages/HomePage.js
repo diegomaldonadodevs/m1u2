@@ -1,4 +1,9 @@
 import React from "react";
+import '../styles/components/pages/HomePage.css';
+
+
+
+
 
 const HomePage = (props) => {
     return (
@@ -9,7 +14,7 @@ const HomePage = (props) => {
             </div>
 
             <div className="columnas">
-                <div className="bienvenidos left">
+                <div className="bienvenidos">
                     <h2>Bienvenidos</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum veniam temporibus deserunt qui corrupti,
                        possimus facere natus officiis, vel, adipisci sunt quibusdam doloribus id dignissimos voluptas cupiditate
@@ -19,10 +24,10 @@ const HomePage = (props) => {
                     </p>
                 </div>
 
-                <div className="testimonios right">
+                <div className="testimonios">
                     <h2>Testimonios</h2>
                     <div className="testimonio">
-                        <span className="cita">Simplemente excelente</span>
+                        <span className="cita">"Simplemente excelente"</span>
                         <span className="autor">Juan Perez</span>
                     </div>
                 </div>
